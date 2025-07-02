@@ -25,18 +25,13 @@ def browser(request):  # This will return the Browser value to setup method
 
 <<<<<<< HEAD
 # It is hook for Adding Environment info to HTML Report
-def pytest_configure(config):
-    config._metadata['Project Name'] = 'nop Commerce'
-    config._metadata['Module Name'] = 'Customers'
-    config._metadata['Tester'] = 'kashan'
-=======
 # Hook to add environment info to HTML report
 @pytest.hookimpl(optionalhook=True)
 def pytest_html_environment(config):
     return {
         "Project Name": "nop Commerce",
         "Module Name": "Customers",
-        "Tester": "Pavan"
+        "Tester": "Kashan"
     }
 >>>>>>> 236d73f (updating structure)
 
