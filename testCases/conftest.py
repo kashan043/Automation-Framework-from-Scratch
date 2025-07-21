@@ -9,10 +9,15 @@ def setup(browser):
     elif browser == 'firefox':
         driver = webdriver.Firefox()
         print("Launching firefox browser.........")
+    else:
+        raise ValueError("Browser not supported!")
 
     driver.implicitly_wait(15)
     driver.set_page_load_timeout(30)
-    return driver
+
+    yield driver  # ✅ yield gives the driver to the test
+
+    driver.quit()  # ✅ clean up after test
 
 def pytest_addoption(parser):  # This will get the value from CLI /hooks
     parser.addoption("--browser")
