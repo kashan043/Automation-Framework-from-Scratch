@@ -25,4 +25,5 @@ jobs:
 
       - name: Run Pytest
         run: |
-          pytest
+          pytest --browser=chrome
+      
