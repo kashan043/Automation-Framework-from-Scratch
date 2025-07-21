@@ -1,0 +1,36 @@
+2025-07-02 12:52:04,984 - INFO - *************** Test_001_Login *****************
+2025-07-02 12:52:04,984 - INFO - ****Started Home page title test ****
+2025-07-02 12:52:04,984 - INFO - ****Opening URL****
+2025-07-02 12:52:07,208 - ERROR - **** Home page title test failed****
+2025-07-02 12:52:09,134 - INFO - ****Started Login Test****
+2025-07-02 12:58:33,326 - INFO - *************** Test_001_Login *****************
+2025-07-02 12:58:33,326 - INFO - ****Started Home page title test ****
+2025-07-02 12:58:33,326 - INFO - ****Opening URL****
+2025-07-02 12:58:47,454 - INFO - **** Home page title test passed ****
+2025-07-02 12:58:49,241 - INFO - ****Started Login Test****
+2025-07-02 13:04:28,158 - INFO - *************** Test_001_Login *****************
+2025-07-02 13:04:28,158 - INFO - ****Started Home page title test ****
+2025-07-02 13:04:28,158 - INFO - ****Opening URL****
+2025-07-02 13:04:32,657 - INFO - **** Home page title test passed ****
+2025-07-02 13:04:34,412 - INFO - ****Started Login Test****
+2025-07-02 13:08:01,085 - INFO - *************** Test_001_Login *****************
+2025-07-02 13:08:01,085 - INFO - ****Started Home page title test ****
+2025-07-02 13:08:01,085 - INFO - ****Opening URL****
+2025-07-02 13:08:05,495 - INFO - **** Home page title test passed ****
+2025-07-02 13:08:07,264 - INFO - ****Started Login Test****
+2025-07-02 13:09:09,537 - INFO - *************** Test_001_Login *****************
+2025-07-02 13:09:09,537 - INFO - ****Started Home page title test ****
+2025-07-02 13:09:09,537 - INFO - ****Opening URL****
+2025-07-02 13:09:11,650 - INFO - **** Home page title test passed ****
+2025-07-02 13:09:13,370 - INFO - ****Started Login Test****
+2025-07-02 13:14:00,326 - INFO - *************** Test_001_Login *****************
+2025-07-02 13:14:00,326 - INFO - ****Started Home page title test ****
+2025-07-02 13:14:00,326 - INFO - ****Opening URL****
+2025-07-02 13:14:04,110 - INFO - **** Home page title test passed ****
+2025-07-02 13:14:05,805 - INFO - ****Started Login Test****
+2025-07-02 13:14:12,702 - ERROR - ****Login test failed ****
+2025-07-02 13:22:11,925 - INFO - *************** Test_001_Login *****************
+2025-07-02 13:22:11,925 - INFO - ****Started Home page title test ****
+2025-07-02 13:22:11,925 - INFO - ****Opening URL****
+2025-07-02 13:22:19,793 - INFO - **** Home page title test passed ****
+2025-07-02 13:22:21,510 - INFO - ****Started Login Test****
