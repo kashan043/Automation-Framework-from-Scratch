@@ -1,10 +1,18 @@
 import pytest
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
 @pytest.fixture()
 def setup(browser):
     if browser == 'chrome':
-        driver = webdriver.Chrome()
+        chrome_options = Options()
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--disable-dev-shm-usage")
+        chrome_options.add_argument("--disable-gpu")
+        chrome_options.add_argument("--headless")  # Optional for GitHub Actions
+        chrome_options.add_argument("--remote-debugging-port=9222")  # Optional
+        chrome_options.add_argument("--user-data-dir=/tmp/unique-profile")  # ✅ Unique temp dir
+        driver = webdriver.Chrome(options=chrome_options)
         print("Launching chrome browser.........")
     elif browser == 'firefox':
         driver = webdriver.Firefox()
